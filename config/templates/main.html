@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+</head>
+<body>
+<h1>This is simple prediction</h1>
+<form action="/model">
+
+    {% csrf_token %}
+    <p>X 데이터 입력</p>
+    <input type="text" name="x">
+    <br>
+
+    <p>Y 데이터 입력</p>
+    <input type="text" name="y">
+    <br>
+
+    <p>Z 데이터 입력</p>
+    <input type="text" name="z">
+    <br>
+
+    <p>A 데이터 입력</p>
+    <input type="text" name="a">
+    <br>
+
+    <input type="submit" value="Get predictions">
+
+</form>
+</body>
+</html>

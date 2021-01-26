@@ -16,7 +16,7 @@ def Prediction(x, y, z, a):
     if model[0]==1:
         result = "setosa"
     elif model[0]==2:
-        result = "virginica"
+        result = "virginicpa"
     else:
         result = "nothing"
     return result
